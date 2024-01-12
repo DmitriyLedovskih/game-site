@@ -1,0 +1,41 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  .button {
+    flex-direction: column-reverse;
+    gap: 3px;
+    color: #606060;
+    padding: 15px;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    width: 100%;
+    &.active {
+      background-color: #fac704;
+      color: #1a1a1c;
+    }
+    &:hover {
+      background-color: #ebebeb;
+      color: #606060;
+    }
+    .counter {
+      background-color: #fac704;
+      color: #101011;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      position: absolute;
+      right: 10px;
+      top: 0;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  position: relative;
+
+  &.primary {
+    background-color: #fac704;
+    color: #1a1a1c;
+  }
+}
